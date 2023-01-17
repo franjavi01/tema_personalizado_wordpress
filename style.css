@@ -16,43 +16,55 @@ footer {
     text-align: center;
 }
 
+.nav-item, .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+
+.nav-item:hover {
+    background: #47e84f;
+    color: #0693e3;
+}
+
+.bi-search {
+    color: white;
+}
+
 .menu {
+    display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
-.menu .menu-item {
-   display: block;
-   float: left;
-   padding: 0 10px;
+.menu > li > a {
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+    font-weight: bold;
 }
 
-.submenu {
-    display: none;
+.menu > li > a:hover {
+    background: #47e84f
+}
+
+.sub-menu {
     position: absolute;
+    display: none;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    background: #0693e3;
 }
 
-.submenu .menu-item {
-    float: none;
-    padding: 0 10px;
+.menu li:hover .sub-menu {
+    display: block;
 }
 
-
-
-.menu-item a {
+.sub-menu > li > a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-.menu-item a:hover {
-    background: greenyellow;
+.sub-menu > li > a:hover {
+    background: #47e84f
 }
-
-
-
 
