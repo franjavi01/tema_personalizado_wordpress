@@ -55,6 +55,11 @@ if ( ! function_exists( 'mytheme_register_nav_menu' ) ) {
 }
 
 
+//esto es para incluir una imagen de identidad de sitio
+
+add_theme_support( 'custom-logo' );
+
+
 
 
 

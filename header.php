@@ -10,29 +10,6 @@
 
 <body id="body">
     <header>
-        <!-- <nav class="header-menu navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-
-
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-      <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
-    </a>
-
-                
-                     <?php wp_nav_menu(array('menu' => 'Menú principal')); ?>
-                
-                    
-                
-
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-
-            </div>
-
-        </nav> -->
-
         <nav class="header-menu navbar navbar-expand-lg navbar-dark bg-primary">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
             <span class="navbar-toggler-icon"></span>
@@ -42,7 +19,7 @@
                 <li class="nav-item">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="index.php">
-                            <img src="#" alt="Logo" width="30px" height="30px" class="d-inline-block align-text-center">
+                            <?php the_custom_logo(); ?>
                         </a>
                     </div>
                 </li>
