@@ -60,6 +60,13 @@ if ( ! function_exists( 'mytheme_register_nav_menu' ) ) {
 add_theme_support( 'custom-logo' );
 
 
+//esto es para incluir una imagen de cabecera
+
+add_theme_support('custom-header');
+
+
+
+
 
 
 

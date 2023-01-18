@@ -10,6 +10,9 @@
 
 <body id="body">
     <header>
+    <div class="cabecera"> 
+    <?php the_custom_header_markup(); ?>
+    </div>
         <nav class="header-menu navbar navbar-expand-lg navbar-dark bg-primary">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
             <span class="navbar-toggler-icon"></span>
